@@ -14,6 +14,7 @@ export default function () {
         'responseBody Name Check': (r) => r.body.includes('Ervin Howell'),
         'lat check': (r) => r.body.includes('-37.3159'),
         'Lng check': (r) => r.body.includes('81.1496'),
+        'Company Name check': (r) => r.body.includes('Romaguera-Crona'),
     });
     sleep(1);
 }
