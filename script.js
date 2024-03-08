@@ -1,10 +1,10 @@
 import http from 'k6/http';
 import { sleep, check } from 'k6';
 
-export const options = {
-    vus: 2,
-    duration: '2s',
-};
+// export const options = {
+//     vus: 2,
+//     duration: '2s',
+// };
 
 export default function () {
     const res = http.get('https://jsonplaceholder.typicode.com/users');
